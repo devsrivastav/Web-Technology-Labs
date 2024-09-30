@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<library>
+    <book>
+        <title>XML Basics</title>
+        <author>John Doe</author>
+        <year>2021</year>
+        <genre>Education</genre>
+    </book>
+    <book>
+        <title>Learning XSLT</title>
+        <author>Jane Smith</author>
+        <year>2022</year>
+        <genre>Education</genre>
+    </book>
+</library>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<library>
+    <book>
+        <title>XML Basics</title>
+        <author>John Doe</author>
+        <year>2021</year>
+        <genre>Education</genre>
+    </book>
+    <book>
+        <title>Learning XSLT</title>
+        <author>Jane Smith</author>
+        <year>2022</year>
+        <genre>Education</genre>
+    </book>
+</library>
